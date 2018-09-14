@@ -1,7 +1,6 @@
 import {
 	Router
 } from 'express';
-import axios from 'axios';
 import experiences_json from '../ressources/experiences.json';
 import errorHandler from '../middleware/errorHandler';
 

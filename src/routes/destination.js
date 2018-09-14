@@ -17,6 +17,7 @@ export default () => {
 		'Content-Type': 'application/x-www-form-urlencoded',
 		'apikey': config.apiKey
 	};
+	
 	destination.get('/', errorHandler(async (req, res, next) => {
 			const result = await axios({
 				method: 'post',
@@ -26,5 +27,6 @@ export default () => {
 			});
 		res.send(result.data);
 	}));
+
 	return destination;
 }
