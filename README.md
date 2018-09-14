@@ -16,3 +16,13 @@ Fetches the profile of the specified user
 /api/experiences?airport=&tag=
 
 Fetches all the experiences matching the two optionals parameters 
+
+### Events
+/api/events
+
+Gets all the events occuring in Singapore 
+
+### Weather 
+/api/weather/:airport
+
+Gets the weather forecast at specified airport 
