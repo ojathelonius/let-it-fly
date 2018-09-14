@@ -1,0 +1,5 @@
+{
+    "apiKey" : "your-api-key",
+    "rootUrl" : "https://api.idbus.com/",
+    "version" : "v2"
+}
