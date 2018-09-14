@@ -4,6 +4,7 @@ import destination from './routes/destination';
 import profile from './routes/profile';
 import experiences from './routes/experiences';
 import events from './routes/events';
+import weather from './routes/weather';
 
 export default () => {
 	let api = Router();
@@ -23,6 +24,9 @@ export default () => {
 
 	//fetch events in Singapore from TIH API
 	api.use('/events', events());
+
+	//get the weather forecast at specified airport
+	api.use('/weather', weather());
 
 	return api;
 }
