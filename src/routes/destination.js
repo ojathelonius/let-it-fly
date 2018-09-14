@@ -8,23 +8,27 @@ import errorHandler from '../middleware/errorHandler';
 
 export default () => {
 	let destination = Router();
-	let data = {
-		"originAirportCode": "SIN",
-		"destinationAirportCode": "DXB",
-		"scheduledDepartureDate": "2018-08-15"
-	};
+
 	let axiosConfig = {
 		'Content-Type': 'application/x-www-form-urlencoded',
 		'apikey': config.apiKey
 	};
-	
-	destination.get('/', errorHandler(async (req, res, next) => {
-			const result = await axios({
-				method: 'post',
-				url: config.rootUrl + "flightroutestatus", 
-				data: data,
-				headers: axiosConfig
-			});
+
+	destination.get('/:airport', errorHandler(async (req, res, next) => {
+		let data = {
+			"request": {
+				"originAirportCode": "SIN",
+				"destinationAirportCode": req.params.airport,
+				"departureDate": "2018-09-29",
+				"returnFlight": false
+			}
+		};
+		const result = await axios({
+			method: 'post',
+			url: config.rootUrl + "flightschedule", 
+			data: data,
+			headers: axiosConfig
+		});
 		res.send(result.data);
 	}));
 
