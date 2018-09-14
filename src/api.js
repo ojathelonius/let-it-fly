@@ -1,6 +1,7 @@
 import { Router } from 'express';
-import origin from './routes/origin';
+
 import destination from './routes/destination';
+import experiences from './routes/experiences';
 
 export default () => {
 	let api = Router();
@@ -9,9 +10,9 @@ export default () => {
 		res.send("api");
 	});
 
-	api.use('/origin', origin());
-
 	api.use('/destination', destination());
+
+	api.use('/experiences', experiences());
 
 	return api;
 }
