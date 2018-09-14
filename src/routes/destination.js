@@ -14,6 +14,7 @@ export default () => {
 		'apikey': config.apiKey
 	};
 
+	// http://localhost:3000/api/destination/SFO
 	destination.get('/:airport', errorHandler(async (req, res, next) => {
 		let data = {
 			"request": {
