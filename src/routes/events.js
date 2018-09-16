@@ -15,7 +15,7 @@ export default () => {
 			method: 'get',
 			url: config.tih_rootUrl + "?apikey=" + config.tih_apiKey
 		});
-		res.send(result.data);
+		res.send(result.data.data);
 	}));
 
 	return events;
