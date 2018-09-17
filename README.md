@@ -20,12 +20,17 @@ Fetches all the experiences matching the two optionals parameters
 ### Events
 /api/events
 
-Gets all the events occuring in Singapore 
+Gets all the events occuring in Singapore. N'utilise pas l'API en ce moment, seulement les extra_events
+
+### Hotels 
+/api/hotels?airport
+
+Gets the hotels near specified airport
 
 ### Weather 
-/api/weather/:airport
+/api/weather/
 
-Gets the weather forecast at specified airport 
+Gets the weather forecast
 
 ## TO EXPLAIN :
 for the hitching a flight part :

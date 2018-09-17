@@ -1,0 +1,28 @@
+{"events" : 
+    [
+        {
+            "id": "1",
+            "title": "The GREAT Food Festival",
+            "position": {
+                "lat": "1.254950",
+                "lon": "103.820310"
+            },
+            "description": "Food fanatics will be able to meet their favourite chefs in person, including Richard Van Ostenbrugge and chef Masayasu Yonemura of TEPPAN. The former will be presenting innovative creations such as ‘Foie Gras Seaweed Broth Umeboshi’ and ‘Scallop with Black Truffle and Fermented Oxtail Jus’, while the latter will present attendees with the opportunity to be the first in the world to sample his mouthwatering ‘Wagyu Sirloin Shabu Shabu’.",
+            "image": "http://www.visitsingapore.com/festivals-events-singapore/annual-highlights/the-great-food-festival/_jcr_content/par/column_control_1860320815/ccpar1/content_img_insta/content/item_6.thumbnail.image-path.350.197.jpg",
+            "startDate":"09-27-2018",
+            "endDate":"09-30-2018"
+        },
+        {
+            "id": "2",
+            "title": "The Science of Kindness",
+            "position": {
+                "lat": "1.330260",
+                "lon": "103.738650"
+            },
+            "description": "Bring your children to dance and sing along to this musical by KidSTOP and the Singapore Kindness Movement, which highlights to young people that being good to others is, in fact, good for one’s soul.",
+            "image": "http://static.asiawebdirect.com/m/phuket/portals/www-singapore-com/homepage/attractions/singapore-science-centre/allParagraphs/BucketComponent/ListingContainer/00/BucketList/01/image1/science-centre-singapore-05.jpg",
+            "startDate":"09-24-2018",
+            "endDate":"10-07-2018"
+        }
+    ]
+}
