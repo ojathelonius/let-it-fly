@@ -23,5 +23,18 @@
         "DUS",
         "MAA",
         "MLE"
+    ],
+    "weatherAirports":
+    [
+        "AKL",
+        "SFO",
+        "CDG",
+        "FUK",
+        "DXB",
+        "PEK",
+        "DUS",
+        "MAA",
+        "MLE",
+        "SIN"
     ]
 }

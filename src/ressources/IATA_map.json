@@ -1,0 +1,43 @@
+[
+    {
+        "IATA": "AKL",
+        "cityName": "Auckland"
+    },
+    {
+        "IATA": "SFO",
+        "cityName": "San Francisco"
+    },
+    {
+        "IATA": "CDG",
+        "cityName": "Paris"
+    },
+    {
+        "IATA": "FUK",
+        "cityName": "Fukuoka"
+    },
+    {
+        "IATA": "DXB",
+        "cityName": "Dubai"
+    },
+    {
+        "IATA": "PEK",
+        "cityName": "Beijing"
+    },
+    {
+        "IATA": "DUS",
+        "cityName": "Dusseldorf"
+    },
+    {
+        "IATA": "MAA",
+        "cityName": "Chennai"
+    },
+    {
+        "IATA": "MLE",
+        "cityName": "the Maldives"
+    }
+    ,
+    {
+        "IATA": "SIN",
+        "cityName": "Singapore"
+    }
+]
