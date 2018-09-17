@@ -26,3 +26,25 @@ Gets all the events occuring in Singapore
 /api/weather/:airport
 
 Gets the weather forecast at specified airport 
+
+## TO EXPLAIN :
+for the hitching a flight part :
+
+the customer can only choose flights where the sum of the duration of the 2 legs is smaller than the original flight time + 4h.
+For example if originally going from SIN to CDG (15h), you can choose to have a layover in Madrid but not in NY.
+(Singapore -> Madrid : 14h, Madrid -> Paris : 2h, total = 16h < 15h + 4h donc c'est OK)
+(try to show this on a map)
+
+## TO REMEMBER :
+when booking hotels and experiences, the man in charge can choose to include all persons related to his reservation
+
+
+according to the class you are flying (economy, business, first), you have access to more hotels  
+
+
+## TO DISCUSS
+
+
+Should we let the customer decide ? (between good hotels or good acitvities) ? Hide what he can't choose ?
+
+

@@ -1,0 +1,40 @@
+{"experiences" : 
+    [
+        {
+            "id": "1",
+            "title": "Pan Pacific Singapore",
+            "airport": "SIN",
+            "position": {
+                "lat": "1.292060",
+                "lon": "103.857680"
+            },
+            "description": "The 5-star Pan Pacific Singapore is directly connected to Marina Square Mall and Suntec Convention Centre. Located at the gateway of Singapore’s Central Business and Financial Districts, it features an outdoor swimming pool and guests can enjoy meals at 6 dining options or have a drink at the bar. Free WiFi is available throughout the hotel.",
+            "stars": "5",
+            "breakfast":true,
+            "parking":true,
+            "ac":true,
+            "pool":true,
+            "url": "https://www.booking.com/hotel/sg/panpacificsingapore.fr.html?aid=356982;label=gog235jc-searchresults-XX-XX-city_N73635-unspec-fr-com-L%3Afr-O%3AwindowsS10-B%3Achrome-N%3Ayes-S%3Abo-U%3Ao-H%3As;sid=d3f45aa010e3209f321c2ee866fa1ec9;all_sr_blocks=2508601_95148868_0_2_0;checkin=2018-09-29;checkout=2018-09-30;dest_id=-73635;dest_type=city;dist=0;group_adults=2;hapos=6;highlighted_blocks=2508601_95148868_0_2_0;hpos=6;room1=A%2CA;sb_price_type=total;srepoch=1537195031;srfid=6c32cf44d4e545f7f1cdde73a5391a7a64e1528eX6;srpvid=668c66ca0a540067;type=total;ucfs=1&#map_opened",
+            "image": "https://t-ec.bstatic.com/images/hotel/max1024x768/859/85960609.jpg",
+            "source": "booking"
+        },
+        {
+            "id": "2",
+            "title": "The Quay Hotel",
+            "airport": "SIN",
+            "position": {
+                "lat": "1.288780",
+                "lon": "103.849120"
+            },
+            "description": "The Quay Hotel is located in a heritage building nestled within the Central Business District and Singapore River. Guests can enjoy meals at the in-house restaurant. Free WiFi is available throughout the property.",
+            "stars": "3",
+            "breakfast":true,
+            "parking":false,
+            "ac":true,
+            "pool":false,
+            "url": "https://www.booking.com/hotel/sg/santa-grand-boat-quay.html?aid=356982&label=gog235jc-searchresults-XX-XX-city_N73635-unspec-fr-com-L%3Afr-O%3AwindowsS10-B%3Achrome-N%3Ayes-S%3Abo-U%3Ao-H%3As&sid=d3f45aa010e3209f321c2ee866fa1ec9&all_sr_blocks=43112702_101924730_0_1_0&checkin=2018-09-29&checkout=2018-09-30&dest_id=-73635&dest_type=city&dist=0&group_adults=2&hapos=8&highlighted_blocks=43112702_101924730_0_1_0&hpos=8&lang=en-us&nflt=pri%3D2&room1=A%2CA&sb_price_type=total&soz=1&srepoch=1537195753&srfid=b4e52c0fd07c2178645824203dffbb48a96853d4X8&srpvid=f66068332bd500d2&type=total&ucfs=1&lang_click=top;cdl=fr;lang_changed=1",
+            "image": "https://exp.cdn-hotels.com/hotels/22000000/21310000/21304500/21304492/77f4b027_z.jpg",
+            "source": "booking"
+        }
+    ]
+}
