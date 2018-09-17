@@ -4,6 +4,7 @@ import cors from 'cors';
 import morgan from 'morgan';
 import bodyParser from 'body-parser';
 import api from './api';
+import 'babel-polyfill';
 let app = express();
 app.server = http.createServer(app);
 
