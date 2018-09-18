@@ -1,0 +1,197 @@
+{
+    "flights": {
+        "Paris":[
+            {
+                "layover": true,
+                "timeInBetween": "14h05",
+                "itinerary":[
+                    {
+                        "id": "1",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "FRA",
+                        "toCity": "Frankfurt",
+                        "departureDate": "09-29-2018",
+                        "departureTime": "01:55pm",
+                        "arrivalDate": "09-29-2018",
+                        "arrivalTime": "08:40pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 326",
+                        "duration": "12h45"
+                    },
+                    {
+                        "id": "2",
+                        "from": "FRA",
+                        "fromCity": "Frankfurt",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "10:45am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "11:55pm",
+                        "airline": "Lufthansa",
+                        "code": "LH 1028",
+                        "duration": "1h10"
+                    }
+                ]
+            },
+            {
+                "layover": true,
+                "timeInBetween": "38h05",
+                "itinerary":[
+                    {
+                        "id": "3",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "FRA",
+                        "toCity": "Frankfurt",
+                        "departureDate": "09-29-2018",
+                        "departureTime": "01:55pm",
+                        "arrivalDate": "09-29-2018",
+                        "arrivalTime": "08:40pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 326",
+                        "duration": "12h45"
+                    },
+                    {
+                        "id": "4",
+                        "from": "FRA",
+                        "fromCity": "Frankfurt",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "10-01-2018",
+                        "departureTime": "10:45am",
+                        "arrivalDate": "10-01-2018",
+                        "arrivalTime": "11:55pm",
+                        "airline": "Lufthansa",
+                        "code": "LH 1028",
+                        "duration": "1h10"
+                    }
+                ]
+            },
+            {
+                "layover": true,
+                "timeInBetween": "62h05",
+                "itinerary":[
+                    {
+                        "id": "5",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "FRA",
+                        "toCity": "Frankfurt",
+                        "departureDate": "09-29-2018",
+                        "departureTime": "01:55pm",
+                        "arrivalDate": "09-29-2018",
+                        "arrivalTime": "08:40pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 326",
+                        "duration": "12h45"
+                    },
+                    {
+                        "id": "6",
+                        "from": "FRA",
+                        "fromCity": "Frankfurt",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "10-02-2018",
+                        "departureTime": "10:45am",
+                        "arrivalDate": "10-02-2018",
+                        "arrivalTime": "11:55pm",
+                        "airline": "Lufthansa",
+                        "code": "LH 1028",
+                        "duration": "1h10"
+                    }
+                ]
+            },
+            {
+                "layover": true,
+                "timeInBetween": "24h35",
+                "itinerary":[
+                    {
+                        "id": "7",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "DXB",
+                        "toCity": "Dubai",
+                        "departureDate": "09-29-2018",
+                        "departureTime": "03:10pm",
+                        "arrivalDate": "09-29-2018",
+                        "arrivalTime": "06:25pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 494",
+                        "duration": "7h15"
+                    },
+                    {
+                        "id": "8",
+                        "from": "DXB",
+                        "fromCity": "Dubai",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "07:00pm",
+                        "arrivalDate": "10-01-2018",
+                        "arrivalTime": "00:20",
+                        "airline": "Air France",
+                        "code": "AF 655",
+                        "duration": "7h20"
+                    }
+                ]
+            },
+            {
+                "layover": true,
+                "timeInBetween": "48h35",
+                "itinerary":[
+                    {
+                        "id": "7",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "DXB",
+                        "toCity": "Dubai",
+                        "departureDate": "09-29-2018",
+                        "departureTime": "03:10pm",
+                        "arrivalDate": "09-29-2018",
+                        "arrivalTime": "06:25pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 494",
+                        "duration": "7h15"
+                    },
+                    {
+                        "id": "8",
+                        "from": "DXB",
+                        "fromCity": "Dubai",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "10-01-2018",
+                        "departureTime": "07:00pm",
+                        "arrivalDate": "10-02-2018",
+                        "arrivalTime": "00:20",
+                        "airline": "Air France",
+                        "code": "AF 655",
+                        "duration": "7h20"
+                    }
+                ]
+            },
+            {
+                "layover": false,
+                "timeInBetween": "0",
+                "itinerary":[
+                    {
+                        "id": "9",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "00:15am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "07:35am",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 336",
+                        "duration": "13h20"
+                    }
+                ]
+            }
+        ],
+        "SFO":[]
+    }
+}

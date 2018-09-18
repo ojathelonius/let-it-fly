@@ -3,6 +3,7 @@ import {
 } from 'express';
 import axios from 'axios';
 import config from '../../config.json';
+import flights from '../ressources/flights.json';
 import errorHandler from '../middleware/errorHandler';
 
 
@@ -14,8 +15,9 @@ export default () => {
 		'apikey': config.apiKey
 	};
 
-	// http://localhost:3000/api/destination/SFO
+	// http://localhost:3000/api/destination/Paris
 	destination.get('/:airport', errorHandler(async (req, res, next) => {
+		/*
 		let data = {
 			"request": {
 				"originAirportCode": "SIN",
@@ -30,7 +32,8 @@ export default () => {
 			data: data,
 			headers: axiosConfig
 		});
-		res.send(result.data);
+		*/
+		res.send(flights.flights[req.params.airport]);
 	}));
 
 	return destination;

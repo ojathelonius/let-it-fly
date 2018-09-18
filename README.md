@@ -3,9 +3,9 @@
 ## API
 
 ### Destination
-/api/destination/:airport
+/api/destination/:city
 
-Gets all the flights from SIN towards the specified airport
+Gets all the flights from SIN towards the specified city
 
 ### Profile
 /api/profile/:id
