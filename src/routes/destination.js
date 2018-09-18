@@ -16,7 +16,9 @@ export default () => {
 	};
 
 	// http://localhost:3000/api/destination/Paris
-	destination.get('/:airport', errorHandler(async (req, res, next) => {
+	destination.get('/:city', errorHandler(async (req, res, next) => {
+
+		/* Fake data to have show flights than what the dummy data from the official API provides */
 		/*
 		let data = {
 			"request": {
@@ -33,7 +35,7 @@ export default () => {
 			headers: axiosConfig
 		});
 		*/
-		res.send(flights.flights[req.params.airport]);
+		res.send(flights.flights[req.params.city]);
 	}));
 
 	return destination;

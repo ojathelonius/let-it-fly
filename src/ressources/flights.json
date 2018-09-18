@@ -1,6 +1,6 @@
 {
     "flights": {
-        "Paris":[
+        "paris":[
             {
                 "layover": true,
                 "timeInBetween": "14h05",
