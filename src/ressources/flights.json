@@ -2,6 +2,7 @@
     "flights": {
         "paris":[
             {
+                "id": 1,
                 "layover": true,
                 "timeInBetween": "14h05",
                 "itinerary":[
@@ -35,7 +36,8 @@
                     }
                 ]
             },
-            {
+            {   
+                "id": 2,
                 "layover": true,
                 "timeInBetween": "38h05",
                 "itinerary":[
@@ -70,6 +72,7 @@
                 ]
             },
             {
+                "id": 3,
                 "layover": true,
                 "timeInBetween": "62h05",
                 "itinerary":[
@@ -103,7 +106,8 @@
                     }
                 ]
             },
-            {
+            {   
+                "id": 4,
                 "layover": true,
                 "timeInBetween": "24h35",
                 "itinerary":[
@@ -138,6 +142,7 @@
                 ]
             },
             {
+                "id": 5,
                 "layover": true,
                 "timeInBetween": "48h35",
                 "itinerary":[
@@ -172,6 +177,7 @@
                 ]
             },
             {
+                "id": 6,
                 "layover": false,
                 "timeInBetween": "0",
                 "itinerary":[
