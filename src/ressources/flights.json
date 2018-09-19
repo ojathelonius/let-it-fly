@@ -134,7 +134,7 @@
                         "departureDate": "09-30-2018",
                         "departureTime": "07:00pm",
                         "arrivalDate": "10-01-2018",
-                        "arrivalTime": "00:20",
+                        "arrivalTime": "00:20am",
                         "airline": "Air France",
                         "code": "AF 655",
                         "duration": "7h20"
@@ -169,7 +169,7 @@
                         "departureDate": "10-01-2018",
                         "departureTime": "07:00pm",
                         "arrivalDate": "10-02-2018",
-                        "arrivalTime": "00:20",
+                        "arrivalTime": "00:20am",
                         "airline": "Air France",
                         "code": "AF 655",
                         "duration": "7h20"
@@ -198,6 +198,133 @@
                 ]
             }
         ],
-        "SFO":[]
+        "sanfrancisco":[
+            {
+                "id": 7,
+                "layover": false,
+                "timeInBetween": "0",
+                "itinerary":[
+                    {
+                        "id": "10",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "SFO",
+                        "toCity": "San Francisco",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "08:45am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "08:35am",
+                        "airline": "United",
+                        "code": "UA 2",
+                        "duration": "14h50"
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "layover": true,
+                "timeInBetween": "01h05",
+                "itinerary":[
+                    {
+                        "id": "11",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "HND",
+                        "toCity": "Tokyo",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "08:00am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "03:55pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 632",
+                        "duration": "6h55"
+                    },
+                    {
+                        "id": "12",
+                        "from": "HND",
+                        "fromCity": "Tokyo",
+                        "to": "SFO",
+                        "toCity": "San Francisco",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "05:00pm",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "10:20am",
+                        "airline": "United",
+                        "code": "UA 838",
+                        "duration": "9h20"
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "layover": true,
+                "timeInBetween": "25h05",
+                "itinerary":[
+                    {
+                        "id": "13",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "HND",
+                        "toCity": "Tokyo",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "08:00am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "03:55pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 632",
+                        "duration": "6h55"
+                    },
+                    {
+                        "id": "14",
+                        "from": "HND",
+                        "fromCity": "Tokyo",
+                        "to": "SFO",
+                        "toCity": "San Francisco",
+                        "departureDate": "10-01-2018",
+                        "departureTime": "05:00pm",
+                        "arrivalDate": "10-01-2018",
+                        "arrivalTime": "10:20am",
+                        "airline": "United",
+                        "code": "UA 838",
+                        "duration": "9h20"
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "layover": true,
+                "timeInBetween": "35h15",
+                "itinerary":[
+                    {
+                        "id": "13",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "TPE",
+                        "toCity": "Taipei",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "08:20am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "01:15pm",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 876",
+                        "duration": "4h35"
+                    },
+                    {
+                        "id": "14",
+                        "from": "TPE",
+                        "fromCity": "Taipei",
+                        "to": "SFO",
+                        "toCity": "San Francisco",
+                        "departureDate": "10-01-2018",
+                        "departureTime": "11:30pm",
+                        "arrivalDate": "10-01-2018",
+                        "arrivalTime": "07:50pm",
+                        "airline": "EVA Air",
+                        "code": "BR 28",
+                        "duration": "11h20"
+                    }
+                ]
+            }
+        ]
     }
 }
