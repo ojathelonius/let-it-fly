@@ -15,7 +15,7 @@ export default () => {
 		'apikey': config.apiKey
 	};
 
-	// http://localhost:3000/api/destination/Paris
+	// http://localhost:3000/api/destination/CDG
 	destination.get('/:city', errorHandler(async (req, res, next) => {
 
 		/* Fake data to have show flights than what the dummy data from the official API provides */
