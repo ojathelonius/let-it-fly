@@ -1,6 +1,6 @@
 {
     "flights": {
-        "paris":[
+        "CDG":[
             {
                 "id": 1,
                 "layover": true,
@@ -198,7 +198,7 @@
                 ]
             }
         ],
-        "sanfrancisco":[
+        "SFO":[
             {
                 "id": 7,
                 "layover": false,
