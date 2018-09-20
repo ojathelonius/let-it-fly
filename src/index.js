@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
     res.send("index");
 });
 
-app.server.listen(process.env.PORT || 3002, () => {
+app.server.listen(process.env.PORT || 3001, () => {
     console.log(`Server started on port ${app.server.address().port}`);
 });
 
