@@ -53,6 +53,60 @@
             "url": "https://www.booking.com/hotel/sg/ibis-singapore-on-bencoolen.html?aid=356982&label=gog235jc-searchresults-XX-XX-city_N73635-unspec-fr-com-L%3Afr-O%3AwindowsS10-B%3Achrome-N%3Ayes-S%3Abo-U%3Ao-H%3As&sid=d3f45aa010e3209f321c2ee866fa1ec9&all_sr_blocks=2516503_95148997_0_2_0&checkin=2018-09-29&checkout=2018-09-30&dest_id=-73635&dest_type=city&dist=0&group_adults=2&hapos=11&highlighted_blocks=2516503_95148997_0_2_0&hpos=11&lang=en-us&nflt=pri%3D2&room1=A%2CA&sb_price_type=total&soz=1&srepoch=1537195753&srfid=b4e52c0fd07c2178645824203dffbb48a96853d4X11&srpvid=f66068332bd500d2&type=total&ucfs=1&lang_click=top;cdl=fr;lang_changed=1#map_closed",
             "image": "https://pix10.agoda.net/hotelImages/109/109247/109247_15062522140030878793.jpg?s=1024x768",
             "source": "booking"
+        },
+        {
+            "id": "4",
+            "title": "Steigenberger Frankfurter Hof",
+            "airport": "FRA",
+            "position": {
+                "lat": "50.110715",
+                "lon": "8.681930"
+            },
+            "description": "Established in 1876, Steigenberger Frankfurter Hof is in the middle of the historic, financial district of Frankfurt and just 0.6 mi away from the Emperor St. Bartholomäus's Cathedral, where the emperor's coronation once took place. The hotel features 303 luxurious rooms with traditional and modern decor as well as elegant and classic furnishings. All rooms features a flat-screen TV, a safety deposit box, an air condition unit and first-class toiletries from Aigner.",
+            "stars": "5",
+            "breakfast":true,
+            "parking":true,
+            "ac":true,
+            "pool":true,
+            "url": "https://www.booking.com/hotel/de/steigenberger-frankfurter-hof.html?aid=397596&label=gog235jc-index-XX-XX-XX-unspec-fr-com-L%3Afr-O%3AwindowsS10-B%3Achrome-N%3Ayes-S%3Abo-U%3Asalo-H%3As&sid=d3f45aa010e3209f321c2ee866fa1ec9&all_sr_blocks=6612601_91460851_0_2_0&checkin=2018-09-29&checkout=2018-09-30&dest_id=-1771148&dest_type=city&dist=0&group_adults=2&hapos=15&highlighted_blocks=6612601_91460851_0_2_0&hpos=15&lang=en-us&room1=A%2CA&sb_price_type=total&soz=1&srepoch=1537537261&srfid=2c17decd43d492c12f7542f901c14c6b7acfc587X15&srpvid=cd7a603621a200bc&type=total&ucfs=1&lang_click=top;cdl=fr;lang_changed=1",
+            "image": "https://www.steigenberger.com/cache/images/44521_SHR_Frankfurte_0059f36c3b62425ad4a500-1-1-1-1.jpg",
+            "source": "booking"
+        },
+        {
+            "id": "5",
+            "title": "Radisson Blu Hotel Frankfurt",
+            "airport": "FRA",
+            "position": {
+                "lat": "50.125110",
+                "lon": "8.646820"
+            },
+            "description": "The Radisson Blu Hotel Frankfurt provides elegant rooms and suites in various styles. Highlights include a heated bathroom floor and a laptop safe. All rooms have floor-to-ceiling windows, and some offer great city views. Radisson Blu’s spa area is located on the 18th floor. Guests can relax in the sauna or steam room here. Beauty treatments and massages can also be booked.",
+            "stars": "4",
+            "breakfast":true,
+            "parking":true,
+            "ac":true,
+            "pool":true,
+            "url": "https://www.booking.com/hotel/de/radisson-sas-frankfurt.html?aid=397596&label=gog235jc-index-XX-XX-XX-unspec-fr-com-L%3Afr-O%3AwindowsS10-B%3Achrome-N%3Ayes-S%3Abo-U%3Asalo-H%3As&sid=d3f45aa010e3209f321c2ee866fa1ec9&all_sr_blocks=2226501_97776896_0_2_0&checkin=2018-09-29&checkout=2018-09-30&dest_id=-1771148&dest_type=city&dist=0&group_adults=2&hapos=4&highlighted_blocks=2226501_97776896_0_2_0&hpos=4&lang=en-us&nflt=pri%3D2&room1=A%2CA&sb_price_type=total&soz=1&srepoch=1537537668&srfid=0d457d1045b7f5f9a37cf28c2062450d6067f910X4&srpvid=0ac96101840301dc&type=total&ucfs=1&lang_click=top;cdl=fr;lang_changed=1",
+            "image": "https://pix10.agoda.net/hotelImages/721/72145/72145_16012318190039354727.jpg?s=1024x768",
+            "source": "booking"
+        },
+        {
+            "id": "6",
+            "title": "Hotel Miramar Golden Mile",
+            "airport": "FRA",
+            "position": {
+                "lat": "50.111790",
+                "lon": "8.682850"
+            },
+            "description": "Located right in the heart of Frankfurt's Old Town, 2 minutes' walk from the cathedral and Römer Platz square, this hotel offers comfortable accommodations and free Wi-Fi internet access. The rooms of the Hotel Miramar Golden Mile are tastefully furnished and come well-equipped with a mini-bar, TV, safe and air-conditioning.",
+            "stars": "3",
+            "breakfast":true,
+            "parking":false,
+            "ac":false,
+            "pool":false,
+            "url": "https://www.booking.com/hotel/de/miramarfrankfurt.html?aid=397596&label=gog235jc-index-XX-XX-XX-unspec-fr-com-L%3Afr-O%3AwindowsS10-B%3Achrome-N%3Ayes-S%3Abo-U%3Asalo-H%3As&sid=d3f45aa010e3209f321c2ee866fa1ec9&checkin=2018-09-29&checkout=2018-09-30&dest_id=-1771148&dest_type=city&dist=0&group_adults=2&hapos=10&hpos=10&lang=en-us&nflt=pri%3D2&room1=A%2CA&sb_price_type=total&soh=1&soldout=0%2C0&soz=1&srepoch=1537537668&srfid=0d457d1045b7f5f9a37cf28c2062450d6067f910X10&srpvid=0ac96101840301dc&type=total&ucfs=1&lang_click=top;cdl=fr;lang_changed=1",
+            "image": "https://s-ec.bstatic.com/images/hotel/max1024x768/132/132321459.jpg",
+            "source": "booking"
         }
     ]
 }

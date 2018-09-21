@@ -22,7 +22,7 @@ export default () => {
 		res.send(result);
     }));
 
-    // http://localhost:3000/api/hotels/1
+    // http://localhost:3000/api/hotels/id/1
     hotels.get('/id/:id', errorHandler(async (req, res, next) => {
         let result = hotels_json.hotels.filter(x => x.id === req.params.id);
 		res.send(result);

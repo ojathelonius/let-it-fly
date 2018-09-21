@@ -47,5 +47,9 @@
     {
         "IATA": "TPE",
         "cityName": "Taipei"
+    },
+    {
+        "IATA": "FRA",
+        "cityName": "Frankfurt"
     }
 ]
