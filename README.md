@@ -3,12 +3,12 @@
 ## API
 
 ### Destination
-/api/destination/:city
+/api/destination/:airport
 
-Gets all the flights from SIN towards the specified city
+Gets all the flights from SIN towards the specified airport
 
 ### Profile
-/api/profile/:id
+/api/profile/{0,1}
 
 Fetches the profile of the specified user
 
@@ -23,12 +23,12 @@ Fetches all the experiences matching the two optionals parameters
 Gets all the events occuring in Singapore. N'utilise pas l'API en ce moment, seulement les extra_events
 
 ### Hotels 
-/api/hotels?airport
+/api/hotels/{SIN,FRA}
 
 Gets the hotels near specified airport
 
 ### Weather 
-/api/weather/
+/api/weather
 
 Gets the weather forecast
 
