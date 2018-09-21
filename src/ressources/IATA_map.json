@@ -39,5 +39,13 @@
     {
         "IATA": "SIN",
         "cityName": "Singapore"
+    },
+    {
+        "IATA": "HND",
+        "cityName": "Tokyo"
+    },
+    {
+        "IATA": "TPE",
+        "cityName": "Taipei"
     }
 ]
