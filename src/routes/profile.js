@@ -56,6 +56,7 @@ export default () => {
 		result.data.response.goingTo = goingTo[req.params.id];
 		result.data.response.goingToAirport = goingToAirport[req.params.id];
 		result.data.response.adjacentBookings = adjacentBookings[req.params.id];
+		result.data.response.businessTrip = businessTrip[req.params.id];
 		res.send(result.data.response);
     }));
     
