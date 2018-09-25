@@ -17,6 +17,7 @@ export default () => {
 	let goingTo = ["Paris","San Francisco"];
 	let goingToAirport = ["CDG", "SFO"];
 	let adjacentBookings = [0, 3];
+	let businessTrip = [true, false];
 	
 	profile.get('/', errorHandler(async (req, res, next) => {
 		let out = [];
@@ -34,6 +35,7 @@ export default () => {
 			result.data.response.goingTo = goingTo[index];
 			result.data.response.goingToAirport = goingToAirport[index];
 			result.data.response.adjacentBookings = adjacentBookings[index];
+			result.data.response.businessTrip = businessTrip[index];
 			out.push(result.data.response);
 		}
 		res.send(out);

@@ -69,5 +69,41 @@
             "image": "https://i.imgur.com/fs92t0x.jpg",
             "source": "tripadvisor"
         }
+        ,
+        {
+            "id": "5",
+            "title": "Michelin star restaurant : Iggy's",
+            "airport": "SIN",
+            "tag": "luxury",
+            "position": {
+                "lat": "1.305800",
+                "lon": "103.829160"
+            },
+            "startingAt": "7pm",
+            "endingAt": "9:30pm",
+            "description": "Chef Aitor Jeronimo Orive serves up expertly balanced, light and fresh modern cuisine with clean Japanese flavors, while a wine list (which is over 25 pages long) will leave you mesmerized by the unusual finds of award-winning sommelier Ignatius Chan, who founded the restaurant.",
+            "requirements": "",
+            "url": "",
+            "image": "https://i.postimg.cc/BbNsJ7Kc/iggys.png",
+            "source": ""
+        }
+        ,
+        {
+            "id": "6",
+            "title": "Luxurious treatment at Heavenly SPA",
+            "airport": "SIN",
+            "tag": "luxury",
+            "position": {
+                "lat": "1.284540",
+                "lon": "103.852030"
+            },
+            "startingAt": "10am",
+            "endingAt": "10pm",
+            "description": "Located 35 floors above the ground and boasting spectacular views of the CBD and Chinatown, it’s definitely not a bad place to clear your head and unwind. The spa has six rooms – one of which is a couple suite – that are decked out with minimalistic décor in soothing, earthy tones. Guests are advised to arrive early to take advantage of the other facilities in the gender-segregated changing rooms, including an Experiential Shower (choose between the hot ‘tropical’ and cold ‘glacier’ modes), a sauna room, and a whirlpool filled with very hot water.",
+            "requirements": "",
+            "url": "",
+            "image": "https://i.postimg.cc/QtF9v5KM/spa.png",
+            "source": ""
+        }
     ]
 }
