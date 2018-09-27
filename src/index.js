@@ -22,7 +22,7 @@ app.use(bodyParser.json());
 app.use('/api', api());
 
 app.get('/', (req, res) => {
-    res.send("index");
+    res.send("Our API for the Singapore Airlines AppChallenge 2018.");
 });
 
 app.server.listen(process.env.PORT || 3001, () => {

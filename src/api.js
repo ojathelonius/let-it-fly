@@ -11,7 +11,7 @@ export default () => {
 	let api = Router();
 	
 	api.get('/', (req, res) => {
-		res.send("api");
+		res.send("Our API for the Singapore Airlines AppChallenge 2018.");
 	});
 
 	//fetch flights towards specified destination

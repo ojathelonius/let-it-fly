@@ -105,5 +105,23 @@
             "image": "https://i.postimg.cc/QtF9v5KM/spa.png",
             "source": ""
         }
+        ,
+        {
+            "id": "7",
+            "title": "Access to the airport lounge",
+            "airport": "SIN",
+            "tag": "luxury",
+            "position": {
+                "lat": "1.347389",
+                "lon": "103.984459"
+            },
+            "startingAt": "10am",
+            "endingAt": "10pm",
+            "description": "The KrisFlyer Gold Lounge at Singapore Changi Airport's Terminal 3 is designed cleverly around Singapore Changi Airport's existing facilities and capitalises on its natural skylight. Buffet food stations and television areas are located inside, while Internet workstations are conveniently placed in the outdoor area overlooking water features and greenery. Stay connected with complimentary WIFI internet access available in the lounge. The KrisFlyer Gold Lounge is open 24 hours daily and is available at both Terminal 2 and Terminal 3.",
+            "requirements": "",
+            "url": "",
+            "image": "https://i.postimg.cc/BQdDwwW7/lounge.png",
+            "source": ""
+        }
     ]
 }
