@@ -1,4 +1,18 @@
-# Let it fly
+# Singapor Airlines AppChallenge - Let it fly (back-end)
+
+This is a simple back-end for the  ["Let it fly"](https://appchallenge.singaporeair.com/en/challenges/appchallenge-2018/teams/360) entry of the Singapor Airlines AppChallenge 2018.
+
+The single page app that consumes it lives on https://letitfly.johanet.fr/
+
+The back-end runs on https://api.johanet.fr/
+
+This API uses both data coming from the provided API as a part of the challenge resources, as well as dummy data stored as JSON that is quite similar to the one you could get from real services, such as :
+* AirBnB
+* Booking.com
+* TripAdvisor
+
+Unfortunately these websites do not provide API for development projects, thus we had to create our own data.
+
 
 ## API
 
@@ -31,25 +45,5 @@ Gets the hotels near specified airport
 /api/weather
 
 Gets the weather forecast
-
-## TO EXPLAIN :
-for the hitching a flight part :
-
-the customer can only choose flights where the sum of the duration of the 2 legs is smaller than the original flight time + 4h.
-For example if originally going from SIN to CDG (15h), you can choose to have a layover in Madrid but not in NY.
-(Singapore -> Madrid : 14h, Madrid -> Paris : 2h, total = 16h < 15h + 4h donc c'est OK)
-(try to show this on a map)
-
-## TO REMEMBER :
-when booking hotels and experiences, the man in charge can choose to include all persons related to his reservation
-
-
-according to the class you are flying (economy, business, first), you have access to more hotels  
-
-
-## TO DISCUSS
-
-
-Should we let the customer decide ? (between good hotels or good acitvities) ? Hide what he can't choose ?
 
 
