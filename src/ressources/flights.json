@@ -2,6 +2,27 @@
     "flights": {
         "CDG":[
             {
+                "id": 0,
+                "layover": false,
+                "timeInBetween": "0",
+                "itinerary":[
+                    {
+                        "id": "9",
+                        "from": "SIN",
+                        "fromCity": "Singapore",
+                        "to": "CDG",
+                        "toCity": "Paris",
+                        "departureDate": "09-30-2018",
+                        "departureTime": "00:15am",
+                        "arrivalDate": "09-30-2018",
+                        "arrivalTime": "07:35am",
+                        "airline": "Singapore Airlines",
+                        "code": "SQ 336",
+                        "duration": "13h20"
+                    }
+                ]
+            },
+            {
                 "id": 1,
                 "layover": true,
                 "timeInBetween": "14h05",
@@ -173,27 +194,6 @@
                         "airline": "Air France",
                         "code": "AF 655",
                         "duration": "7h20"
-                    }
-                ]
-            },
-            {
-                "id": 6,
-                "layover": false,
-                "timeInBetween": "0",
-                "itinerary":[
-                    {
-                        "id": "9",
-                        "from": "SIN",
-                        "fromCity": "Singapore",
-                        "to": "CDG",
-                        "toCity": "Paris",
-                        "departureDate": "09-30-2018",
-                        "departureTime": "00:15am",
-                        "arrivalDate": "09-30-2018",
-                        "arrivalTime": "07:35am",
-                        "airline": "Singapore Airlines",
-                        "code": "SQ 336",
-                        "duration": "13h20"
                     }
                 ]
             }
