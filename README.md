@@ -34,7 +34,7 @@ Fetches all the experiences matching the two optionals parameters
 ### Events
 /api/events
 
-Gets all the events occuring in Singapore. N'utilise pas l'API en ce moment, seulement les extra_events
+Gets all the events occuring in Singapore. For a lack of events in the Singapore Tourism Board API, we fetched data coming from other sources.
 
 ### Hotels 
 /api/hotels/{SIN,FRA}
