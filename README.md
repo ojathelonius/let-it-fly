@@ -6,6 +6,8 @@ The single page app that consumes it lives on https://letitfly.johanet.fr/
 
 The back-end runs on https://api.johanet.fr/
 
+Watch the **explanation video** [on YouTube](https://youtu.be/3PAMQNL95pk).
+
 This API uses both data coming from the provided API as a part of the challenge resources, as well as dummy data stored as JSON that is quite similar to the one you could get from real services, such as :
 * AirBnB
 * Booking.com
